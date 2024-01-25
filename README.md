@@ -13,11 +13,14 @@ It is recommended to have the vsCode extension installed called <b>Prettier - Co
 ## 🛫 Getting Started
 
 ```sh
-# install the project
-npm i node-typescript-fastify
+# clone the project
+git clone https://github.com/AndresH11/Node-TypeScript-Fastify.git
 
 # enter the project directory
 cd node-typescript-fastify
+
+# install dependency
+npm install
 
 # develop
 npm run watch  #First run this command in a terminal
