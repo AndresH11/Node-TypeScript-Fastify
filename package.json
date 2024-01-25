@@ -1,0 +1,42 @@
+{
+  "name": "node-typescript-fastify",
+  "version": "1.0.0",
+  "description": "It is a boilerplate of node, typeScript and fastify",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon build/index.js",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresH11/Node-TypeScript-Fastify.git"
+  },
+  "keywords": [
+    "Node",
+    "TypeScript",
+    "Fastify",
+    "Boilerplate",
+    "server"
+  ],
+  "author": "Andrés Hernández <andresfelipe200110@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndresH11/Node-TypeScript-Fastify/issues"
+  },
+  "homepage": "https://github.com/AndresH11/Node-TypeScript-Fastify#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nodemon": "^3.0.3",
+    "prettier-eslint": "^16.3.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fastify": "^4.25.2"
+  }
+}
