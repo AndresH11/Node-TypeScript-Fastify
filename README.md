@@ -44,4 +44,4 @@ npm run dev    #Finally run this command in a different terminal
 
 
 ## 🌱 Creator
-[ Linkedin ] <a href = "www.linkedin.com/in/andresh11">Andrés Hernández</a>
+[ Linkedin ] [Andrés Hernández](https://www.linkedin.com/in/andresh11/)
