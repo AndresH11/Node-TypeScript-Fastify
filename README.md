@@ -20,8 +20,8 @@ npm install node-typeScript-fastify
 cd node-typeScript-fastify
 
 # develop
-npm run watch
-npm run dev
+npm run watch  #First run this command in a terminal
+npm run dev    #Finally run this command in a different terminal
 ```
 
 ## 🐞 example
