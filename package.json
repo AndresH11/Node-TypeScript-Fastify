@@ -1,6 +1,6 @@
 {
   "name": "node-typescript-fastify",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "It is a boilerplate of node, typeScript and fastify",
   "main": "build/index.js",
   "scripts": {
