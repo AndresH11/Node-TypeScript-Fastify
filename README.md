@@ -23,12 +23,12 @@ cd node-typescript-fastify
 npm install
 
 # develop
-npm run watch  #First run this command in a terminal
-npm run dev    #Finally run this command in a different terminal
+npm run dev
 ```
 
 ## 🐞 example
-![Node-TypeScript-Fastify](https://github.com/AndresH11/Node-TypeScript-Fastify/assets/92903830/a1e951db-9311-4e20-a4df-9a3790f2a6aa)
+![Node-TypeScript-Fastify](https://github.com/AndresH11/Node-TypeScript-Fastify/assets/92903830/48b4bc14-a7be-47ea-aa79-6de83323ddcb)
+
 
 ## 📂 Directory structure
 ```tree
