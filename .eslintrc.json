@@ -36,5 +36,5 @@
 		"prefer-spread": "warn",
 		"prefer-const": "error"
 	},
-	"ignorePatterns": ["build", "node_modules/**/*"]
+	"ignorePatterns": ["build", "node_modules/**/*", "package.json"]
 }

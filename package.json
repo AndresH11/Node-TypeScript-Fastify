@@ -1,12 +1,11 @@
 {
   "name": "node-typescript-fastify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It is a boilerplate of node, typeScript and fastify",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w",
-    "dev": "nodemon build/index.js",
+    "dev": "nodemon src/index.ts",
     "start": "node build/index.js"
   },
   "repository": {
@@ -34,6 +33,7 @@
     "eslint-config-prettier": "^9.1.0",
     "nodemon": "^3.0.3",
     "prettier-eslint": "^16.3.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {

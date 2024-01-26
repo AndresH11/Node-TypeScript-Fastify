@@ -3,12 +3,10 @@ import app from './app'
 const startServer = (port: number) => {
 	app.listen({ port }, (err, address) => {
 		if (err) {
-			// eslint-disable-next-line no-console
-			console.error(err)
+			app.log.error(err)
 			process.exit(1)
 		}
-		// eslint-disable-next-line no-console
-		console.info(`Server listening on port ${address}`)
+		app.log.info(`Server listening on port ${address}`) 
 	})
 }
 

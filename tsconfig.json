@@ -19,4 +19,5 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 	},
+	"ts-node": {"esm": false}
 }
